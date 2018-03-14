@@ -1,0 +1,21 @@
+
+/*变量定义*/
+$width: 500px;
+$color: #333;
+$fontSize: 16px;
+
+#test { 
+	width: $width;
+	height:30px;
+	border:1px solid #ccc;
+	color: $color;
+	font-size: $fontSize;
+	margin:30px auto;
+
+	p{ 
+		border-right:1px solid red;
+		color: $color;
+		float:left;
+	}
+}
+
